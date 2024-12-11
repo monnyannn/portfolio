@@ -84,7 +84,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className='min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8'
+      className='min-h-screen bg-gray-50 py-24 px-4 sm:px-6 lg:px-8'
     >
       <div className='max-w-4xl mx-auto'>
         <motion.div

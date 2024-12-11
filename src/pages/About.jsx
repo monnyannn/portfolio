@@ -28,7 +28,7 @@ const About = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="min-h-screen bg-custom-bg py-12 px-4 sm:px-6 lg:px-8"
+      className="min-h-screen bg-custom-bg py-24 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-7xl mx-auto">
         <motion.div 
