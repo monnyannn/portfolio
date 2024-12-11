@@ -13,12 +13,21 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'SYNTEGRA',
+    title: 'Syntegra',
     description: 'Syntegra is a tech company that empowers business with scalable, efficient, and secure infrastructure that drives growth. Our innovative solutions help businesses transform their operations and achieve sustainable success through cutting-edge technology integration.',
     image: "/assets/syntegra-home.png",
-    tags: ["Figma", "TailwindCSS", "React"],
+    tags: ["Figma", "TailwindCSS", "React", "Shadcn"],
     size: "medium",
     prototypeLink: 'https://www.figma.com/proto/XCCJALe8OifppTPthGEYaf/Syntegra?page-id=0%3A1&node-id=1-2734&scaling=scale-down-width&content-scaling=fixed&t=cqwzqY9gyXjkm85z-1',
+    liveLink: 'https://syntegra-web.onrendercom',
+  },
+  {
+    id: 3,
+    title: "Darust Resturant",
+    description: "Darust is a cozy breakfast spot offering classic and modern dishes made with fresh, local ingredients. From hearty pancakes to creative avocado toasts, it’s the perfect place to start your day.",
+    image: "/assets/dacrust.png",
+    tags: ["React", "Google", "Lucide", "Shadcn", "TailwindCSS"],
+    size: "large",
     liveLink: 'https://syntegra-web.onrendercom',
   },
 ];

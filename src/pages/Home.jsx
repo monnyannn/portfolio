@@ -22,7 +22,7 @@ const Home = () => {
       transition={{ duration: 0.8 }}
       className="bg-gray-50"
     >
-      <div className="min-h-screen flex items-center justify-center px-4">
+      <div className="min-h-screen flex items-center justify-center px-4 relative">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="text-center lg:text-left">
@@ -105,7 +105,7 @@ const Home = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative group w-full h-full flex justify-center items-center"
+            className="relative group w-full h-full flex justify-center items-center p-6" 
           >
             {/* Animated background glow */}
             <motion.div
@@ -119,7 +119,7 @@ const Home = () => {
                 repeat: Infinity,
                 ease: "linear"
               }}
-              className="absolute w-[500px] h-[600px] bg-gradient-to-r from-custom-primary/30 to-custom-primary-light/30 blur-3xl rounded-[300px]"
+              className="absolute w-[200px] h-[300px] bg-gradient-to-r from-custom-primary/30 to-custom-primary-light/30 blur-3xl rounded-[300px]"
             />
 
             {/* Main image container */}
@@ -133,7 +133,7 @@ const Home = () => {
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
-              className="relative w-[400px] h-[500px] overflow-hidden"
+              className="relative w-[400px] h-[400px] overflow-hidden"
             >
               {/* Border glow effect */}
               <motion.div
