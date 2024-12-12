@@ -21,9 +21,9 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="min-h-screen bg-gray-50 px-4 sm:px-6 lg:px-8"
+      className="min-h-screen py-12 bg-gray-50 px-4 sm:px-6 lg:px-8"
     >
-      <div className="min-h-screen flex items-center justify-center px-4 relative">
+      <div className="min-h-fit flex items-center justify-center px-4 relative">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="text-center lg:text-left">
@@ -111,7 +111,7 @@ const Home = () => {
           <div 
             className="relative group w-full h-full flex justify-center items-center p-6"
           >
-            <div className="relative w-[400px] h-[400px] overflow-hidden">
+            <div className="relative w-[400px] h-[400px] overflow-hidden rounded-lg">
               <img
                 src="/assets/mypic.jpg"
                 alt="Profile"
